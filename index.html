@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>idea box</title>
+    <title>2DoBox - Get Done</title>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="reset.css" media="screen" title="styles" charset="utf-8">
     <link rel="stylesheet" href="styles.css" media="screen" title="styles" charset="utf-8">
@@ -14,15 +14,15 @@
     <header class="hero">
       <h1 class="hero-title"><span class="teal-h1">2Do</span><span class="grey-h1">Box</span></h1>
 
-      <input type="text" class="title-input" tabindex = "0" placeholder="Title" maxlength="120">
+      <input type="text" class="title-input" aria-label="title-input-field"tabindex = "0" placeholder="Task" maxlength="120">
       <p>counter <span class='input-counter'></span></p>
-      <textarea type="text" class="body-input" tabindex = "0" placeholder="Body" maxlength="120"></textarea>
+      <textarea type="text" class="body-input" aria-label="body-input-field" tabindex = "0" placeholder="Add Detail" maxlength="120"></textarea>
       <p>counter <span class='body-counter'></span></p>
       <button class="save" disabled="true" tabindex="0">Save</button>
 
     </header>
 
-    <input class="search-field" tabindex = "0" type="text"  placeholder="Search">
+    <input class="search-field" aria-label="search-field" tabindex = "0" type="text"  placeholder="Search">
 
     <section class="show-completed-container">
       <button class="show-completed-button" tabindex="0">Show Completed 2Dos</button>
@@ -50,4 +50,4 @@
     <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js'></script>
     <script src="main.bundle.js"></script>
   </body>
-</html>
+</html lang="en">

@@ -71,6 +71,11 @@ textarea {
   background: #045E55;
 }
 
+.completed-button {
+  background-color: #00A79D;
+  color: white;
+}
+
 .show-completed-container, .sort-button-container {
   display: flex;
   justify-content: center;
