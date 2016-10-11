@@ -2,7 +2,7 @@
 
 ###Description
 
-We built a simple todo app using. Our feature testing was done using [webdriver.io](http://webdriver.io/) and Selenium, unit tests were done using Mocha and Chai. The application is built with Javascript, jQuery, and Sass. Webpack is used to organize and compile our code. 
+Welcome to the codebase for our simple todo app. Our feature testing was done using [webdriver.io](http://webdriver.io/) and Selenium, unit tests were done using Mocha and Chai. The application is built with Javascript, jQuery, and Sass. Webpack is used to organize and compile our code. 
 
 ###How To Use The App & Features
 
